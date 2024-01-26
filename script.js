@@ -44,6 +44,6 @@ class Eye1 {
 //ctx.strokeStyle = "hsl(320, 100%, 50%)";
 //ctx.stroke();
 
-const rect1 = new eye1();
+const rect1 = new Eye1();
 rect1.draw();       
    
