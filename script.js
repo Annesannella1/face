@@ -45,7 +45,8 @@ class Eye2 {
            ctx.strokeStyle = "pink";
            ctx.strokeRect(this.startX, this.startY, this.width, this.height);
       }
-}     
+}  
+
  class Line1 {
        constructor() {
              this.x = 350;
@@ -54,9 +55,9 @@ class Eye2 {
              this.toY = 700;
        }
        draw() {
-           //  ctx.beginPath();
-             ctx.moveTo(this.x, this.y);
-             ctx.lineTo(this.toX, this.toY);
+            ctx.beginPath();
+            ctx.moveTo(this.x, this.y);
+            ctx.lineTo(this.toX, this.toY);
        }
  }      
 
