@@ -24,7 +24,7 @@ class Eye1 {
            ctx.fillRect(this.startX, this.startY, this.width, this.height);
            ctx.lineWidth = 10;
            ctx.strokeStyle = "pink";
-           ctx.stokeRect(this.startX, this.startY, this.width, this.height);
+           ctx.strokeRect(this.startX, this.startY, this.width, this.height);
       }
 }     
 
@@ -43,7 +43,7 @@ class Eye2 {
            ctx.fillRect(this.startX, this.startY, this.width, this.height);
            ctx.lineWidth = 10;
            ctx.strokeStyle = "pink";
-           ctx.stokeRect(this.startX, this.startY, this.width, this.height);
+           ctx.strokeRect(this.startX, this.startY, this.width, this.height);
       }
 }     
 
