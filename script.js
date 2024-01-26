@@ -28,6 +28,25 @@ class Eye1 {
       }
 }     
 
+class Eye2 {
+      constructor() {
+            this.startX = 400;
+            this.startY = 100;
+            this.width = 200;
+            this.height = 150;
+      }
+      draw() {
+            
+
+           ctx.fillStyle = "orange";
+      
+           ctx.fillRect(this.startX, this.startY, this.width, this.height);
+           ctx.lineWidth = 10;
+           ctx.strokeStyle = "pink";
+           ctx.stokeRect(this.startX, this.startY, this.width, this.height);
+      }
+}     
+
 //ctx.fillStyle = "orange";
 //ctx.fillRect(400, 100, 200, 150);
 //ctx.lineWidth = 10;
@@ -46,4 +65,6 @@ class Eye1 {
 
 const rect1 = new Eye1();
 rect1.draw();       
+const rect2 = new Eye2();
+rect2.draw();       
    
