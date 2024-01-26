@@ -54,7 +54,7 @@ class Eye2 {
              this.toY = 700;
        }
        draw() {
-             ctx.beginPath();
+           //  ctx.beginPath();
              ctx.moveTo(this.x, this.y);
              ctx.lineTo(this.toX, this.toY);
        }
