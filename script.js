@@ -21,10 +21,10 @@ class Eye1 {
 
            ctx.fillStyle = "orange";
       
-           ctx.fillRect(this.startX, this.startY, this.width, this-height);
+           ctx.fillRect(this.startX, this.startY, this.width, this.height);
            ctx.lineWidth = 10;
            ctx.strokeStyle = "pink";
-           ctx.stokeRect(this.startX, this.startY, this.width, this-height);
+           ctx.stokeRect(this.startX, this.startY, this.width, this.height);
       }
 }     
 
