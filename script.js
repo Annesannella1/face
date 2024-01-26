@@ -46,12 +46,20 @@ class Eye2 {
            ctx.strokeRect(this.startX, this.startY, this.width, this.height);
       }
 }     
+ class Line1 {
+       constructor() {
+             this.x = 350;
+             this.y = 350;
+             this.toX = 400;
+             this.toY = 700;
+       }
+       draw() {
+             ctx.beginPath();
+             ctx.moveTo(this.x, this.y);
+             ctx.lineTo(this.toX, this.toY);
+       }
+ }      
 
-//ctx.fillStyle = "orange";
-//ctx.fillRect(400, 100, 200, 150);
-//ctx.lineWidth = 10;
-//ctx.strokeStyle = "pink";
-//ctx.strokeRect(400, 100, 200, 150);
 
 
 
@@ -67,4 +75,5 @@ const rect1 = new Eye1();
 rect1.draw();       
 const rect2 = new Eye2();
 rect2.draw();       
-   
+const line1 = new Line1();
+line1.draw();
