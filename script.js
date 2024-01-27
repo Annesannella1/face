@@ -52,9 +52,9 @@ class Eye2 {
              this.x1 = 350;
              this.y1 = 350;
              this.x2 = 400;
-             this.y2 = 650;
+             this.y2 = 700;
              this.x3 = 350;
-             this.y3 = 650;
+             this.y3 = 700;
        }
        draw() {
             ctx.beginPath();
@@ -62,7 +62,7 @@ class Eye2 {
             ctx.lineTo(this.x2, this.y2);
             ctx.lineTo(this.x3, this.y3);
             ctx.lineTo(this.x1, this.y1);
-            ctx.strokeStyle = "hsl(91, 67%, 41%)";
+            ctx.strokeStyle = "hsl(82, 49%, 62%)";
             ctx.closePath();
             ctx.stroke();
        }
