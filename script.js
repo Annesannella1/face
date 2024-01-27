@@ -58,6 +58,8 @@ class Eye2 {
             ctx.beginPath();
             ctx.moveTo(this.x, this.y);
             ctx.lineTo(this.toX, this.toY);
+            ctx.strokeStyle = "hsl(320, 100%, 50%)";
+            ctx.stroke();
        }
  }      
 
