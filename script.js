@@ -67,7 +67,7 @@ class Eye2 {
        constructor() {
              this.x = 350;
              this.y = 350;
-             this.toX = 300;
+             this.toX = 350;
              this.toY = 700;
        }
        draw() {
@@ -83,7 +83,7 @@ class Eye2 {
        constructor() {
              this.x = 350;
              this.y = 350;
-             this.toX = 450;
+             this.toX = 350;
              this.toY = 700;
        }
        draw() {
