@@ -84,7 +84,7 @@ class Eye2 {
              this.x = 700;
              this.y = 700;
              this.toX = 650;
-             this.toY = 350;
+             this.toY = 650;
        }
        draw() {
             ctx.beginPath();
