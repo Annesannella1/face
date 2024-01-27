@@ -79,6 +79,21 @@ class Eye2 {
        }
  }      
 
+ class Line3 {
+       constructor() {
+             this.x = 350;
+             this.y = 350;
+             this.toX = 350;
+             this.toY = 350;
+       }
+       draw() {
+            ctx.beginPath();
+            ctx.moveTo(this.x, this.y);
+            ctx.lineTo(this.toX, this.toY);
+            ctx.strokeStyle = "hsl(320, 100%, 50%)";
+            ctx.stroke();
+       }
+ }      
 
 //ctx.beginPath();
 //ctx.moveTo(350, 350);
@@ -96,3 +111,5 @@ const line1 = new Line1();
 line1.draw();
 const line2 = new Line2;
 line2.draw();
+const line3 = new Line3();
+line3.draw();
