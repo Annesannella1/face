@@ -50,8 +50,8 @@ class Eye2 {
  class Line1 {
        constructor() {
              this.x = 350;
-             this.y = 350;
-             this.toX = 400;
+             this.y = 325;
+             this.toX = 350;
              this.toY = 700;
        }
        draw() {
@@ -66,15 +66,15 @@ class Eye2 {
  class Line2 {
        constructor() {
              this.x = 350;
-             this.y = 350;
-             this.toX = 350;
+             this.y = 325;
+             this.toX = 325;
              this.toY = 700;
        }
        draw() {
             ctx.beginPath();
             ctx.moveTo(this.x, this.y);
             ctx.lineTo(this.toX, this.toY);
-            ctx.strokeStyle = "hsl(320, 100%, 50%)";
+            ctx.strokeStyle = "hsl(120, 100%, 50%)";
             ctx.stroke();
        }
  }      
@@ -82,9 +82,9 @@ class Eye2 {
  class Line3 {
        constructor() {
              this.x = 350;
-             this.y = 350;
+             this.y = 325;
              this.toX = 350;
-             this.toY = 700;
+             this.toY = 325;
        }
        draw() {
             ctx.beginPath();
