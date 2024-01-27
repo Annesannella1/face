@@ -19,7 +19,7 @@ class Eye1 {
       draw() {
             
 
-           ctx.fillStyle = hsl(312, 49%, 78%);
+           ctx.fillStyle = "hsl(312, 49%, 78%)";
       
            ctx.fillRect(this.startX, this.startY, this.width, this.height);
            ctx.lineWidth = 10;
@@ -38,7 +38,7 @@ class Eye2 {
       draw() {
             
 
-           ctx.fillStyle = hsl(312, 49%, 78%);
+           ctx.fillStyle = "hsl(312, 49%, 78%)";
       
            ctx.fillRect(this.startX, this.startY, this.width, this.height);
            ctx.lineWidth = 10;
