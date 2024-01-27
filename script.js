@@ -50,9 +50,9 @@ class Eye2 {
  class Line1 {
        constructor() {
              this.x = 350;
-             this.y = 325;
+             this.y = 0;
              this.toX = 350;
-             this.toY = 700;
+             this.toY = 650;
        }
        draw() {
             ctx.beginPath();
@@ -66,9 +66,9 @@ class Eye2 {
  class Line2 {
        constructor() {
              this.x = 350;
-             this.y = 325;
-             this.toX = 325;
-             this.toY = 700;
+             this.y = 0;
+             this.toX = 400;
+             this.toY = 650;
        }
        draw() {
             ctx.beginPath();
@@ -82,9 +82,9 @@ class Eye2 {
  class Line3 {
        constructor() {
              this.x = 350;
-             this.y = 325;
+             this.y = 0;
              this.toX = 350;
-             this.toY = 325;
+             this.toY = 0;
        }
        draw() {
             ctx.beginPath();
