@@ -49,51 +49,26 @@ class Eye2 {
 
  class Line1 {
        constructor() {
-             this.x = 350;
-             this.y = 0;
-             this.toX = 350;
-             this.toY = 650;
+             this.x1 = 350;
+             this.y1 = 350;
+             this.x2 = 400;
+             this.y2 = 650;
+             this.x3 = 350;
+             this.y3 = 650;
        }
        draw() {
             ctx.beginPath();
-            ctx.moveTo(this.x, this.y);
-            ctx.lineTo(this.toX, this.toY);
+            ctx.moveTo(this.x1, this.y1);
+            ctx.lineTo(this.x2, this.y2);
+            ctx.lineTo(this.x3, this.y3);
+            ctx.lineTo(this.x1, this.y1);
             ctx.strokeStyle = "hsl(320, 100%, 50%)";
+             ctx.c;osePath();
             ctx.stroke();
        }
  }      
 
- class Line2 {
-       constructor() {
-             this.x = 350;
-             this.y = 0;
-             this.toX = 400;
-             this.toY = 650;
-       }
-       draw() {
-            ctx.beginPath();
-            ctx.moveTo(this.x, this.y);
-            ctx.lineTo(this.toX, this.toY);
-            ctx.strokeStyle = "hsl(120, 100%, 50%)";
-            ctx.stroke();
-       }
- }      
 
- class Line3 {
-       constructor() {
-             this.x = 350;
-             this.y = 0;
-             this.toX = 350;
-             this.toY = 0;
-       }
-       draw() {
-            ctx.beginPath();
-            ctx.moveTo(this.x, this.y);
-            ctx.lineTo(this.toX, this.toY);
-            ctx.strokeStyle = "hsl(350, 100%, 50%)";
-            ctx.stroke();
-       }
- }      
 
 //ctx.beginPath();
 //ctx.moveTo(350, 350);
@@ -109,7 +84,3 @@ const rect2 = new Eye2();
 rect2.draw();       
 const line1 = new Line1();
 line1.draw();
-const line2 = new Line2;
-line2.draw();
-const line3 = new Line3();
-line3.draw();
