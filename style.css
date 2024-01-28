@@ -18,10 +18,10 @@ canvas {
    left: 50%;
    transform: translate(-50%, -50%);
 }
-@keyframes colorchange{
+@keyframes colorchange {
     0%{background-color: #f4e749;}
     10%{background-color: #60bbf4;}
-    20%{background-color: agua;}
+    20%{background-color: aqua;}
     30%{background-color: #7d42dd;}
     40%{background-color: #e5903a;}
     50%{background-color: #a58828;}
@@ -30,3 +30,4 @@ canvas {
     80%{background-color: #d94646;}
     90%{background-color: #b96c52;}
     100%{background-color: #bcef32;}
+}
