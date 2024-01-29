@@ -67,7 +67,7 @@ class Eye2 {
             ctx.stroke();
 
             ctx.textAlign = "center";   
-            ctx.strokeText("MASK", canvas.width/2, canvas.height/2);
+            ctx.strokeText("MASK", canvas.width/2, canvas.height/3.5);
        }
  }      
 
