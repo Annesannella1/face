@@ -25,13 +25,6 @@ canvas {
    transform: translate(-50%, -50%);
 }
 
-#canvas1 h1 {
-   color: #e0e0e0;
-   font-size: 4rem;
-   margin-bottom: 40px;
-   text-align: center;
-}  
-
 @keyframes colorchange {
     0%{background-color: #f4e749;}
     10%{background-color: #60bbf4;}
