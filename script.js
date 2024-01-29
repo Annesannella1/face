@@ -73,15 +73,17 @@ class Eye2 {
 
  class Text {
        constructor() {
+             this.showWord = "MASK"
              this.x1 = 350;
              this.y1 = 800;
-            
+             this.fillColor = "hsl(82, 49%, 62%)";
+             this.fontSize = "40px";
        }
-       colorText(showWords, textX, textY, fillColor, fontSize) {
+       draw(this.showWord, this.x1, this.y1, this.fillColor, this.fontSize) {
             
              ctx.font = `${fontSize} Verdana`;
              ctx.fillStyle = fillColor;
-             ctx.fillText(showWords, textX, textY);
+             ctx.fillText(this.showWord, this.x1, this.y1);
       
              
        }
@@ -104,4 +106,4 @@ rect2.draw();
 const line1 = new Line1();
 line1.draw();
 const text1 = new Text();
-text1.colorText();
+text1.draw();
