@@ -77,7 +77,7 @@ class Eye2 {
              this.y1 = 800;
             
        }
-       colortext(showWords, textX, textY, fillColor, fontSize) {
+       colorText(showWords, textX, textY, fillColor, fontSize) {
             
              ctx.font = `${fontSize} Verdana`;
              ctx.fillStyle = fillColor;
@@ -104,4 +104,4 @@ rect2.draw();
 const line1 = new Line1();
 line1.draw();
 const text1 = new Text();
-text1.colortext();
+text1.colorText();
