@@ -1,6 +1,5 @@
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext("2d");
-colorText("MASK", 350, 800, "pink", "40px");
 canvas.width = 700;
 canvas.height = 900;
 console.log(canvas);
