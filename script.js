@@ -79,10 +79,10 @@ class Eye2 {
              this.fillColor = "hsl(82, 49%, 62%)";
              this.fontSize = "40px";
        }
-       draw(this.showWord, this.x1, this.y1, this.fillColor, this.fontSize) {
+       draw() {
             
-             ctx.font = `${fontSize} Verdana`;
-             ctx.fillStyle = fillColor;
+             ctx.font = `${this.fontSize} Georgia`;
+             ctx.fillStyle = this.fillColor;
              ctx.fillText(this.showWord, this.x1, this.y1);
       
              
