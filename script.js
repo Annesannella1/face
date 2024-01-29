@@ -82,7 +82,7 @@ class Eye2 {
             ctx.beginPath();
             ctx.fillStyle = "hsl(312, 49%, 78%)"; 
             ctx.textAlign = "center";   
-            ctx.fillText("MASK", this.x1, this.y1);
+            ctx.fillText("MASK", this.x1, this.y1, 40px);
        }
  }      
 
