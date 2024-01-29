@@ -1,5 +1,6 @@
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext("2d");
+colorText("MASK", 350, 800, "pink", "40px");
 canvas.width = 700;
 canvas.height = 900;
 console.log(canvas);
@@ -76,13 +77,12 @@ class Eye2 {
              this.y1 = 800;
             
        }
-       draw("MASK", 350, 800, pink, 40) {
+       colortext(showWords, textX, textY, fillColor, fontSize) {
+            
+             ctx.font = `${fontSize} Verdana`;
+             ctx.fillStyle = fillColor;
+             ctx.fillText(showWords, textX, textY);
       
-             
-            ctx.beginPath();
-         //   ctx.fillStyle = "hsl(312, 49%, 78%)"; 
-            ctx.textAlign = "center";   
-            ctx.fillText("MASK", 350, 800);
              
        }
  }      
@@ -104,4 +104,4 @@ rect2.draw();
 const line1 = new Line1();
 line1.draw();
 const text1 = new Text();
-text1.draw();
+text1.colortext();
