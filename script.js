@@ -66,9 +66,22 @@ class Eye2 {
             ctx.closePath();
             ctx.stroke();
              
+      
+       }
+ }      
+
+ class Text {
+       constructor() {
+             this.x1 = 350;
+             this.y1 = 800;
+            
+       }
+       draw() {
+      
+             
             ctx.beginPath();
             ctx.textAlign = "center";   
-            ctx.strokeText("MASK", canvas.width/2, canvas.height);
+            ctx.strokeText("MASK", this.x1, this.y1);
        }
  }      
 
@@ -88,3 +101,5 @@ const rect2 = new Eye2();
 rect2.draw();       
 const line1 = new Line1();
 line1.draw();
+const text1 = new Text();
+text1.draw();
