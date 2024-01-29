@@ -72,7 +72,7 @@ class Eye2 {
 
  class Text {
        constructor() {
-             this.showWord = "MASK"
+             this.showWord = "Who Am I?"
              this.x1 = 280;
              this.y1 = 800;
              this.fillColor = "hsl(312, 49%, 78%)";
