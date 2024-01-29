@@ -65,9 +65,10 @@ class Eye2 {
             ctx.strokeStyle = "hsl(82, 49%, 62%)";
             ctx.closePath();
             ctx.stroke();
-
+             
+            ctx.beginPath();
             ctx.textAlign = "center";   
-            ctx.strokeText("MASK", canvas.width/2, canvas.height/3.5);
+            ctx.strokeText("MASK", canvas.width/2, canvas.height);
        }
  }      
 
