@@ -73,9 +73,9 @@ class Eye2 {
  class Text {
        constructor() {
              this.showWord = "MASK"
-             this.x1 = 300;
+             this.x1 = 280;
              this.y1 = 800;
-             this.fillColor = "hsl(82, 49%, 62%)";
+             this.fillColor = "hsl(312, 49%, 78%)";
              this.fontSize = "50px";
        }
        draw() {
