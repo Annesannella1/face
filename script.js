@@ -76,14 +76,14 @@ class Eye2 {
              this.y1 = 800;
             
        }
-       draw() {
+       draw("MASK", 350, 800, pink, 40) {
       
              
             ctx.beginPath();
-            ctx.fillStyle = "hsl(312, 49%, 78%)"; 
+         //   ctx.fillStyle = "hsl(312, 49%, 78%)"; 
             ctx.textAlign = "center";   
-            ctx.fillText("MASK", this.x1, this.y1);
-            ctx.font = "40px Georgia"; 
+            ctx.fillText("MASK", 350, 800);
+             
        }
  }      
 
